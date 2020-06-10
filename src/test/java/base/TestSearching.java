@@ -1,9 +1,6 @@
 package base;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import pages.CoronavirusPage;
 import pages.HomePage;
@@ -16,7 +13,7 @@ public class TestSearching extends base.BaseTests {
     @Test
     public void testSearchingATerm(){
 
-        SetUp();
+        //SetUp();
 
         HomePage homePage = new HomePage(driver);
         homePage.enterSearchTerm("Coronavirus");
@@ -24,7 +21,7 @@ public class TestSearching extends base.BaseTests {
         homePage.clickSearch();
         assertTrue(coronavirusPage.verifySuggestion().contains("Coronavirus"));
 
-        tearDown();
+        //tearDown();
 
     }
 }
