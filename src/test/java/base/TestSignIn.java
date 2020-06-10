@@ -9,7 +9,7 @@ import pages.SignInPage;
 public class TestSignIn extends BaseTests {
 
     @Test
-    public void testSignIn(){
+    public void testSignIn() {
         HomePage homePage = new HomePage(driver);
         homePage.clickSignIn();
         SignInPage signInPage = new SignInPage(driver);
