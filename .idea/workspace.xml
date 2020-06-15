@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abb2f497-cf67-48d6-8e09-04f78da35438" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LocalNewsAndoverPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LocalNewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestMoreDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestSearchingAndover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Sp10WeatherPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WeatherPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestLocationWeatherSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestSignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestSignIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/CoronavirusPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CoronavirusPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LocalNewsAndoverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LocalNewsAndoverPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LocalNewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LocalNewsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestMoreDropDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestMoreDropDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestSearchingAndover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestSearchingAndover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestSearching.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestSearching.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +63,8 @@
       <recent name="C:\Users\R2Williams\IdeaProjects\Automation\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestMoreDropDown">
-    <configuration name="TestEpisode" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestLocationWeatherSearch">
+    <configuration name="TestLocationWeatherSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +73,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.TestEpisode" />
+      <option name="MAIN_CLASS_NAME" value="base.TestLocationWeatherSearch" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLocationWeatherSearch.testSearchingForWeatherInSp10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base" />
+      <option name="MAIN_CLASS_NAME" value="base.TestLocationWeatherSearch" />
+      <option name="METHOD_NAME" value="testSearchingForWeatherInSp10" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -99,18 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearching" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="base.TestSearching" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMoreDropDown.testMoreDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +125,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="base" />
-      <option name="MAIN_CLASS_NAME" value="base.TestSignIn" />
+      <option name="MAIN_CLASS_NAME" value="base.TestMoreDropDown" />
+      <option name="METHOD_NAME" value="testMoreDropDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchingAndover" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base" />
+      <option name="MAIN_CLASS_NAME" value="base.TestSearchingAndover" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,10 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestLocationWeatherSearch" />
+        <item itemvalue="TestNG.TestLocationWeatherSearch.testSearchingForWeatherInSp10" />
+        <item itemvalue="TestNG.TestSearchingAndover" />
+        <item itemvalue="TestNG.TestMoreDropDown.testMoreDropDown" />
         <item itemvalue="TestNG.TestMoreDropDown" />
-        <item itemvalue="TestNG.TestSignIn" />
-        <item itemvalue="TestNG.TestEpisode" />
-        <item itemvalue="TestNG.TestSearching" />
       </list>
     </recent_temporary>
   </component>
@@ -154,12 +179,20 @@
       <option name="project" value="LOCAL" />
       <updated>1591787210318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LocalNewsAndoverPage, LocalNewsPage, TestMoreDropDown, TestSearchingAndover">
+      <created>1591799978054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591799978054</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login page and login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login page and login test" />
+    <MESSAGE value="LocalNewsAndoverPage, LocalNewsPage, TestMoreDropDown, TestSearchingAndover" />
+    <option name="LAST_COMMIT_MESSAGE" value="LocalNewsAndoverPage, LocalNewsPage, TestMoreDropDown, TestSearchingAndover" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2423" y="218" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591718560815">
@@ -170,58 +203,62 @@
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state x="2454" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591797482513" />
-    <state x="2323" y="45" key="CommitChangelistDialog2" timestamp="1591787209828">
+    <state x="2323" y="45" key="CommitChangelistDialog2" timestamp="1591799977492">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state x="2323" y="45" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591787209828" />
-    <state width="1624" height="262" key="GridCell.Tab.0.bottom" timestamp="1591798573846">
+    <state x="2323" y="45" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591799977492" />
+    <state width="1624" height="261" key="GridCell.Tab.0.bottom" timestamp="1591890003734">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="1864" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1590769220080" />
-    <state width="1624" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591798573846" />
-    <state width="1624" height="262" key="GridCell.Tab.0.center" timestamp="1591798573846">
+    <state width="1624" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591890003734" />
+    <state width="1624" height="261" key="GridCell.Tab.0.center" timestamp="1591890003734">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="1864" height="259" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1590769220080" />
-    <state width="1624" height="262" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591798573846" />
-    <state width="1624" height="262" key="GridCell.Tab.0.left" timestamp="1591798573846">
+    <state width="1624" height="261" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591890003734" />
+    <state width="1624" height="261" key="GridCell.Tab.0.left" timestamp="1591890003734">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="1864" height="259" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1590769220080" />
-    <state width="1624" height="262" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591798573846" />
-    <state width="1624" height="262" key="GridCell.Tab.0.right" timestamp="1591798573846">
+    <state width="1624" height="261" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591890003734" />
+    <state width="1624" height="261" key="GridCell.Tab.0.right" timestamp="1591890003734">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state width="1864" height="259" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1590769220080" />
-    <state width="1624" height="262" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591798573846" />
-    <state width="1624" height="329" key="GridCell.Tab.1.bottom" timestamp="1591797161188">
+    <state width="1624" height="261" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591890003734" />
+    <state width="1624" height="329" key="GridCell.Tab.1.bottom" timestamp="1591804053241">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1624" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591797161188" />
-    <state width="1624" height="329" key="GridCell.Tab.1.center" timestamp="1591797161187">
+    <state width="1624" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591804053241" />
+    <state width="1624" height="329" key="GridCell.Tab.1.center" timestamp="1591804053241">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1624" height="329" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591797161187" />
-    <state width="1624" height="329" key="GridCell.Tab.1.left" timestamp="1591797161187">
+    <state width="1624" height="329" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591804053241" />
+    <state width="1624" height="329" key="GridCell.Tab.1.left" timestamp="1591804053241">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1624" height="329" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591797161187" />
-    <state width="1624" height="329" key="GridCell.Tab.1.right" timestamp="1591797161188">
+    <state width="1624" height="329" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591804053241" />
+    <state width="1624" height="329" key="GridCell.Tab.1.right" timestamp="1591804053241">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state width="1624" height="329" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591797161188" />
+    <state width="1624" height="329" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591804053241" />
     <state x="311" y="0" key="SettingsEditor" timestamp="1590763511251">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="311" y="0" key="SettingsEditor/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1590763511251" />
-    <state x="2251" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591787213807">
+    <state x="2251" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591799979884">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
-    <state x="2251" y="190" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591787213807" />
-    <state x="2427" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1591775980750">
+    <state x="2251" y="190" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591799979884" />
+    <state x="2427" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1591870169585">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state x="579" y="295" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/1920.0.1680.1050@0.0.1920.1032" timestamp="1591022067980" />
-    <state x="2427" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591775980750" />
+    <state x="2427" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591870169585" />
+    <state x="2026" y="148" key="new project wizard" timestamp="1591883186550">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2026" y="148" key="new project wizard/0.0.1920.1032/1920.0.1680.1050@1920.0.1680.1050" timestamp="1591883186550" />
   </component>
 </project>

@@ -8,11 +8,13 @@ import pages.LocalNewsPage;
 public class TestSearchingAndover extends BaseTests {
 
     @Test
-    public void testSearchingForAndoverInLocalNews(){
+    public void testSearchingForAndoverInLocalNews() {
+        driver.get("https://www.bbc.co.uk/news/localnews");
         LocalNewsPage localNewsPage = new LocalNewsPage(driver);
-        localNewsPage.searchForAndover("Andover");
+        localNewsPage.searchForPlace("Andover");
         localNewsPage.selectAndover();
         LocalNewsAndoverPage localNewsAndoverPage = new LocalNewsAndoverPage(driver);
+        localNewsAndoverPage.verifyOnAndoverPage();
 
     }
 }

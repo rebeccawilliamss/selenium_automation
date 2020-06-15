@@ -17,6 +17,7 @@ public class HomePage {
     private By navigationMenuHome = By.cssSelector("#orb-modules > header > div:nth-child(2) > div:nth-child(1) > div.gs-u-display-none.gs-u-display-block\\@m.nw-o-news-wide-navigation > nav > ul > li.gs-o-list-ui__item--flush.gel-long-primer.gs-u-display-block.gs-u-float-left.nw-c-nav__selected.nw-c-nav__wide-menuitem-container > a > span:nth-child(1)");
     private By moreDropDownButton = By.cssSelector("#orb-nav-more > a");
     private By localLink = By.cssSelector("#orb-panel-more > div > ul > li.orb-nav-local");
+    private By weatherPageLink = By.cssSelector("#orb-nav-links > ul > li.orb-nav-weather > a");
 
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -47,6 +48,11 @@ public class HomePage {
         WebElement element = (new WebDriverWait(driver, 5)).until(ExpectedConditions.elementToBeClickable(localLink));
         element.click();
         return new SignInPage(driver);
+    }
+
+    public WeatherPage clickWeather(){
+        driver.findElement(weatherPageLink).click();
+        return new WeatherPage(driver);
     }
 
     public String verifyReturnToHomepage(){
